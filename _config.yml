@@ -1,0 +1,33 @@
+title: Engine Saphira Theme
+email: heiji.morimotoo@gmail.com
+description: >-
+  Engine Saphira Theme is a modern jekyll theme 
+baseurl: ""
+url: "https://heijimrt.netlify.app"
+
+# social media
+twitter_username:
+github_username:
+
+markdown: kramdown
+theme: engine-saphira-theme
+plugins: [
+  jekyll-feed,
+  jekyll-sitemap,
+  jekyll-paginate
+]
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+exclude: [
+  vendor/bundle/,
+  vendor/cache/,
+  vendor/gems/,
+  vendor/ruby/,
+  Gemfile.lock,
+  node_modules,
+  README,
+  Gemfile
+]
